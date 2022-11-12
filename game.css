@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 95vh;
+    width: 50%;
+    align-items: center;
+}
+#start{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tip{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 180px;
+}
+#textarea{
+    height: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#timecn{
+    display: flex;
+    width: 100%;
+
+}
+#time{
+    height: 70px;
+    width: 100%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    }
+#time1{
+    margin-top: 3px;
+    height: 70px;
+    width: 100%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    }
+#score{
+    width: 100%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+#scorey{
+    display: flex;
+    width: 30%;
+}
+#scoree{
+    width: 100%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#color{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+#btn{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
